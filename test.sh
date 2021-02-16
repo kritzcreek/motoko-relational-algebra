@@ -1,0 +1,1 @@
+$(vessel bin)/moc test/Test.mo $(vessel sources) -wasi-system-api && wasmtime Test.wasm
